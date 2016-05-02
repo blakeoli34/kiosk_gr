@@ -60,11 +60,13 @@ body {
 	margin:0;
 	padding:0;
 	font-family:"Avenir", helvetica, arial, sans-serif;
+	background:#E6E6E6;	
 }
 .page {
 	background:#313131 url("../images/pixeld.png") repeat fixed;
 	z-index:1;
 }
+
 .clear {
   clear: both;
 }
@@ -117,6 +119,10 @@ header h1 {
 	font-weight:600;
 	font-size:14px;
 	line-height:24px;
+}
+.center {
+	text-align:center;
+	color:#cc0033;
 }
 .focus {
 	margin:0;
@@ -287,6 +293,9 @@ footer {
 }
 [class*='col-'] {
   float: left;
+}
+.col-margin {
+	width:5.555%
 }
 .col-half {
 	width:50%;
