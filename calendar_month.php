@@ -21,23 +21,33 @@
 	</div>
 	<div class="row">
     	<div class="col-margin fill"></div>
-		<div class="col-5 fill">
+		<div class="col-5 fill calendar_container">
         	<div class="calsquare">03</div>
-        	<h5>April</h5>
-            <h4>Sunday</h4>
+        	<h5 class="month">April</h5>
+            <h4 class="weekday">Sunday</h4>
 		</div>
-		<div class="col-3 fill gold">
-		</div>
+        <div class="col-1 fill"></div>
+        <div class="col-2">
+        	<div class="filter_box">
+        		<h4 class="filter">Filter</h4>
+            </div>
+        </div>
         <div class="col-margin fill"></div>	
 	</div>
 	<div class="row">
-		<div class="col-9 fill red">
+            <div class="col-margin fill"></div>	
+		<div class="col-5 horizontal_line">
+                <p class="event_headline">Bulldog Club Baseball Hosts Bowling Green</p>
+                <p class="event_time">Event Time: 12:00 PM</p>
+                <p class="event_location">Location: Win Kellum Field</p>
 		</div>
+        
+        <div class="col-margin fill"></div>	
 	</div>
 	<div class="row">
-		<div class="col-4 fill gold">
+		<div class="col-4">
 		</div>
-		<div class="col-5 fill gray">
+		<div class="col-5">
 		</div>
 	</div>	
   </div>

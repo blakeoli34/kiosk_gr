@@ -109,6 +109,60 @@ header h1 {
 	font-size:14px;
 	line-height:24px;
 }
+
+h5.month {
+	margin-top:-45px;
+	margin-left: -120px;
+	margin-bottom:5px;
+	font-size:16px;
+	color:#4A4A4A;
+	letter-spacing:.5px;
+}
+
+h4.weekday {
+	margin-left: -55px;
+	margin-top:0px;
+	text-transform:uppercase;
+	font-size: 26px;
+	color:#cc0033;
+	letter-spacing:.5px;
+}
+
+.filter_box {
+	background-color:red;
+	height:200px;
+	padding:6px;	
+}
+
+h4.filter {
+	
+}
+
+.calendar_container {
+	padding-top:0px;	
+}
+
+p.event_headline {
+	font-size:18px;
+	font-weight:bold;
+	color:#4A4A4A;	
+	margin-top:0px;
+}
+
+p.event_time {
+	font-size:14px;
+	margin-bottom: 0px;
+}
+
+p.event_location {
+	font-size:14px;
+	margin-top:10px;
+}
+
+.horizontal_line {
+	border-bottom:8px solid #9B9B9B;	
+}
+
 #weatherbox {
 	margin:0;
 	display:inline-block;
@@ -180,6 +234,17 @@ footer {
 	color:#fff;
 	text-align:center;
 }
+
+.calsquare {
+	font-size:60px;
+	color:white;
+	font-weight:bold;
+	padding-top:10px;
+	width:75px;
+	height:75px;
+	background-color:#CC0033;	
+}
+
 .bulldog_ring {
 	background:rgba(255,255,255,0.4);
     border: 3px solid #fff;
