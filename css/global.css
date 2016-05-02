@@ -2,19 +2,54 @@
 /*color background classes*/
 .fill {
 	height:125px;
-	opacity:0.8;
+	text-align:center;
+	padding-top:10px;
 }
 .gold {
-	background:#F5A623;
+	background:rgba(245,166,35,0.7);
 }
 .red {
-	background:#cc0033;
+	background:rgba(204,0,51,0.7);
 }
 .gray {
-	background:#666;
+	background:rgba(102,102,102,0.7);
 }
-/*color text classes*/
-
+.darkgray {
+	background:rgba(28,28,28,0.7);
+}
+/*color img classes*/
+#food {
+	background-image: url("../images/GoldFood.jpg");
+	background-size:cover;
+}
+#campusmap {
+	background-image: url("../images/RedMap.jpg");
+	background-size:cover;
+}
+#rso {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/BWRSOs.jpg");
+	background-size:cover;
+}
+#events {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/BWEvents.jpg");
+	background-size:cover;
+}
+#faculty {
+	background-image: url("../images/GoldFaculty.jpg");
+	background-size:cover;
+}
+#sports {
+	background-image: url("../images/RedSports.jpg");
+	background-size:cover;
+}
+#bus {
+	background-image: url("../images/GoldBus.jpg");
+	background-size:cover;
+}
+#campusinfo {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/BWSafety.jpg");
+	background-size:cover;
+}
 /*color text hover classes*/
 
 /*global css*/
@@ -25,7 +60,10 @@ body {
 	margin:0;
 	padding:0;
 	font-family:"Avenir", helvetica, arial, sans-serif;
+}
+.page {
 	background:#313131 url("../images/pixeld.png") repeat fixed;
+	z-index:1;
 }
 .clear {
   clear: both;
@@ -72,7 +110,7 @@ header h1 {
 #weatherbox {
 	margin:0;
 	display:inline-block;
-	width:32%;
+	width:31.75%;
 	padding-right:20px;
 	text-align:right;
 	color:#cc0033;
@@ -85,8 +123,8 @@ header h1 {
 	height:150px;
 	background:#F5A623;
 	text-align:right;
-	padding-right:75px;
-	padding-top:40px;
+	padding-right:50px;
+	padding-top:30px;
 }
 .focus h2 {
 	margin-top:0;
@@ -106,15 +144,31 @@ header h1 {
 	margin-bottom:70px;
 }
 .bdbtn {
-	position:relative;
-	top:-30px;
+	position:absolute;
+	cursor:pointer;
+	top:220px;
+	left:0;
+	right:0;
 	width:80px;
 	height:80px;
 	border-radius:150px;
 	background:#fff url(../images/paw.gif) no-repeat center center;
+	background-size:65px;
 	margin:0 auto;
 	text-align:center;
 	z-index:300;
+}
+.fill img.icon {
+	width:50px;
+	height:auto;
+	margin:0 auto;
+	z-index:900;
+}
+.fill h3 {
+	padding:0;
+	margin:0;
+	color:#fff;
+	text-transform:uppercase;
 }
 footer {
 	color:#fff;
@@ -127,8 +181,11 @@ footer {
     height: 100px;
     width: 100px;
 	margin:0 auto;
-    position: relative;
-    top:-120px;
+    position: absolute;
+    top:210px;
+	left:0;
+	right:0;
+	z-index:299;
 }
 .bulldog_ring{
     -webkit-animation-name: pulsate;
@@ -147,8 +204,11 @@ footer {
     height: 125px;
     width: 125px;
 	margin:0 auto;
-    position: relative;
-    top:-232px;
+    position: absolute;
+    top:198px;
+	left:0;
+	right:0;
+	z-index:298;
 }
 .bulldog_ring2{
     -webkit-animation-name: pulsate2;
@@ -162,6 +222,63 @@ footer {
     100% { width:125px;height: 125px;  opacity: 0.0}
 }
 
+#overlay {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100vw;
+	height:100vh;
+	background:rgba(74,74,74,0.8);
+}
+#overlay h2 {
+	text-align:center;
+	color:#fff;
+	font-size:225%;
+	font-weight:500;
+	margin-bottom:0px;
+}
+.nav_bottom {
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+}
+#overlay .fill {
+	height:50px;
+	padding-top:10px;
+}
+#overlay .fill img.icon {
+	width:25px;
+}
+.blur {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+}
+.buttonbar {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+}
+.boxed {
+	width:70%;
+	margin:0 auto;
+	text-align:center;
+	height:80px;
+	margin-bottom:10px;
+}
+.boxed h5 {
+	color:#fff;
+	font-weight:500;
+	font-size:16px;
+	line-height:20px;
+	vertical-align:middle;
+	padding-top:20px;
+}
 /* grid system */
 .row:after {
 	content:"";
@@ -170,6 +287,9 @@ footer {
 }
 [class*='col-'] {
   float: left;
+}
+.col-half {
+	width:50%;
 }
 .col-1 {
 	width:11.111%;
