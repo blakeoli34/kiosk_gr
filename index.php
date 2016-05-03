@@ -52,10 +52,10 @@
 			<img class="icon" src="images/bus.png" alt="bus" />
 			<h3>Bus Schedule</h3>
 		</div>
-		<div id="campusinfo" class="col-5 fill gray">
+		<a href="campusinfo.php"><div id="campusinfo" class="col-5 fill gray">
 			<img class="icon" src="images/campus-information.png" alt="campus info" />
 			<h3>Campus Information</h3>
-		</div>
+		</div></a>
 	</div>	
   </div>
   <?php include("inc/btn.php"); ?>
