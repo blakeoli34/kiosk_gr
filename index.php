@@ -32,10 +32,10 @@
 		</div>
 	</div>
 	<div class="row">
-		<div id="events" class="col-6 fill gray">
+		<a href="calendar_month.php"><div id="events" class="col-6 fill gray">
 			<img class="icon" src="images/events-white.png" alt="events" />
 			<h3>Events</h3>
-		</div>
+		</div></a>
 		<div id="faculty" class="col-3 fill gold">
 			<img class="icon" src="images/apple.png" alt="faculty" />
 			<h3>Faculty</h3>

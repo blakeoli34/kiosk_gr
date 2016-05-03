@@ -3,24 +3,24 @@
 	<div class="row">
 		<div class="col-3">
 			<div class="boxed gold">
-			<h5>What the Quad Has</h5>
+			<h5>What the<br> Quad Has</h5>
 			</div>
 		</div>
 		<div class="col-3">
 			<div class="boxed red">
-			<h5>What's Going on Tonight</h5>
+			<h5>What's Going<br> on Tonight</h5>
 			</div>
 		</div>
 		<div class="col-3">
 			<div class="boxed darkgray">
-			<h5>Parking Information</h5>
+			<h5>Parking<br> Information</h5>
 			</div>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-3">
 			<div class="boxed darkgray">
-			<h5>Traffic to Grand Rapids</h5>
+			<h5>Traffic to<br> Grand Rapids</h5>
 			</div>
 		</div>
 		<div class="col-3">
@@ -28,24 +28,24 @@
 		</div>
 		<div class="col-3">
 			<div class="boxed gold">
-			<h5>Professor's Office Hours</h5>
+			<h5>Professor's<br> Office Hours</h5>
 			</div>
 		</div>
 	</div>	
 	<div class="row">
 		<div class="col-3">
 			<div class="boxed red">
-			<h5>Directions to My Class</h5>
+			<h5>Directions to<br> My Class</h5>
 			</div>
 		</div>
 		<div class="col-3">
 			<div class="boxed darkgray">
-			<h5>My Exam Schedule</h5>
+			<h5>My Exam<br> Schedule</h5>
 			</div>
 		</div>
 		<div class="col-3">
 			<div class="boxed darkgray">
-			<h5>Weather for Later</h5>
+			<h5>Weather for<br> Later</h5>
 			</div>
 		</div>
 	</div>
@@ -57,7 +57,7 @@
 		</div>
 		<div class="col-3">
 			<div class="boxed red">
-				<h5>Sporting Events</h5>
+				<h5>Sporting<br> Events</h5>
 			</div>	
 		</div>
 		<div class="col-3">

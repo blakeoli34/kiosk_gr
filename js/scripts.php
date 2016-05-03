@@ -34,8 +34,8 @@
   <script>
       $('#toggleoverlay').click(function() {
           $('#overlay').toggle();
-		  $('.page').toggleClass('blur');
+		  $('.page, .page2').toggleClass('blur');
           return false;
       });
 	  
-  </script>  
+  </script>   

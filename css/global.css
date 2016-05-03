@@ -66,9 +66,23 @@ body {
 	background:#313131 url("../images/pixeld.png") repeat fixed;
 	z-index:1;
 }
-
 .clear {
   clear: both;
+}
+.breadcrumbs {
+	position:absolute;
+	top:275px;
+	left:20px;
+	color:#cc0033;
+	font-size:12px;
+	font-weight:700;
+}
+.breadcrumbs a {
+	text-decoration:none;
+	color:#4a4a4a;
+}
+.breadcrumbs a.active {
+	color:#cc0033;
 }
 header {
 	background:#cc0033;
@@ -129,19 +143,75 @@ h4.weekday {
 }
 
 .filter_box {
-	background-color:red;
-	height:200px;
+	background-color:#d8d8d8;
 	padding:6px;	
 }
 
 h4.filter {
-	
+	margin:5px 0 5px 0;
+	color:#cc0033;
 }
-
+.filter_list {
+	font-size:12px;
+}
+.filter_list input[type=radio] {
+    display: none;
+}
+.filter_list label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+}
+.filter_list label:before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #d8d8d8;
+    border:1px solid #979797;
+}
+input[type=radio]:checked + label:before {
+	background-color:#cc0033;
+}
 .calendar_container {
 	padding-top:0px;	
 }
-
+.topfilters {
+	text-align:center;
+}
+.cal_filter {
+	display:inline-block;
+	text-align:center;
+	margin-top:0;
+	margin-bottom:20px;
+	-webkit-padding-start: 0px;
+}
+.cal_filter a{
+	text-decoration:none;
+	color:#9b9b9b;
+	border-right:solid 2px #cc0033;
+	font-size:12px;
+}
+.cal_filter a.active {
+	color:black;
+}
+.cal_filter a:last-child {
+	border-right:solid 0px;
+}
+.cal_filter a li {
+	width:50px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	list-style-type:none;
+	display:inline-block;
+}
 p.event_headline {
 	font-size:18px;
 	font-weight:bold;
@@ -177,6 +247,19 @@ p.event_location {
 .center {
 	text-align:center;
 	color:#cc0033;
+}
+.centermonth {
+	text-align:center;
+	color:black;
+	padding:0;
+	margin:0;
+	font-size:32px;
+}
+h1.centermonth span {
+	font-size:18px;
+	line-height:18px;
+	color:#9b9b9b;
+	cursor:pointer;
 }
 .focus {
 	margin:0;
