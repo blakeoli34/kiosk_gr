@@ -42,10 +42,10 @@
 		</div>	
 	</div>
 	<div class="row">
-		<div id="sports" class="col-9 fill red">
+		<a href="sports.php"><div id="sports" class="col-9 fill red">
 			<img class="icon" src="images/sports.png" alt="sports" />
 			<h3>Sports</h3>
-		</div>
+		</div></a>
 	</div>
 	<div class="row">
 		<div id="bus" class="col-4 fill gold">

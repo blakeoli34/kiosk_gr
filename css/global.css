@@ -78,6 +78,22 @@
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../images/housing.jpg");
 	background-size:cover;
 }
+#mens {
+	background-image: url("../images/boyssports.jpg");
+	background-size:cover;
+}
+#womens {
+	background-image: url("../images/girlssports.jpg");
+	background-size:cover;
+}
+#results {
+	background-image: url("../images/sportsresults.jpg");
+	background-size:cover;
+}
+#clubs {
+	background-image: url("../images/topstories.jpg");
+	background-size:cover;
+}
 /*color text hover classes*/
 
 /*global css*/
@@ -385,6 +401,10 @@ h1.centermonth span {
 }
 .focus.campusinfo {
 	background-image: url("../images/campus_rainbow.jpg");
+	background-size:cover;
+}
+.focus.sports {
+	background-image: url("../images/hockey.jpg");
 	background-size:cover;
 }
 .focus h2 {
