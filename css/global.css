@@ -5,6 +5,9 @@
 	text-align:center;
 	padding-top:10px;
 }
+.fillmargin {
+	height:30px;
+}
 .gold {
 	background:rgba(245,166,35,0.7);
 }
@@ -131,15 +134,17 @@ h5.month {
 	font-size:16px;
 	color:#4A4A4A;
 	letter-spacing:.5px;
+	margin-left:92px;
 }
 
 h4.weekday {
-	margin-left: -55px;
 	margin-top:0px;
 	text-transform:uppercase;
 	font-size: 26px;
 	color:#cc0033;
 	letter-spacing:.5px;
+	margin-left:90px;
+	margin-bottom:5px;
 }
 
 .filter_box {
@@ -150,7 +155,9 @@ h4.weekday {
 h4.filter {
 	margin:5px 0 5px 0;
 	color:#cc0033;
+	padding-bottom: 10px;
 }
+
 .filter_list {
 	font-size:12px;
 }
@@ -213,11 +220,39 @@ input[type=radio]:checked + label:before {
 	list-style-type:none;
 	display:inline-block;
 }
+
+.cal_filter_week {
+	display:inline-block;
+	text-align:center;
+	margin-top:0;
+	margin-bottom:20px;
+	-webkit-padding-start: 0px;
+}
+.cal_filter_week a{
+	text-decoration:none;
+	color:#9b9b9b;
+	border-right:solid 2px #cc0033;
+	font-size:16px;
+}
+.cal_filter_week a.active {
+	color:black;
+}
+.cal_filter a:last-child {
+	border-right:solid 0px;
+}
+.cal_filter_week a li {
+	width:50px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	list-style-type:none;
+	display:inline-block;
+}
+
 p.event_headline {
-	font-size:18px;
+	font-size:16px;
 	font-weight:bold;
 	color:#4A4A4A;	
-	margin-top:0px;
 }
 
 p.event_time {
@@ -230,10 +265,57 @@ p.event_location {
 	margin-top:10px;
 }
 
+.event_details {
+	font-size:10px;
+	float:right;	
+	font-weight:bold;
+	margin-top:-26px;
+	color:#cc0033;
+}
+
+p.event_headline_day {
+	font-size:16px;
+	font-weight:bold;
+	color:#4A4A4A;	
+	margin-top:-20px;
+	margin-left:90px;
+	margin-top:-140px;
+}
+
+p.event_time_day {
+	font-size:14px;
+	margin-bottom: 0px;
+	margin-left:90px;
+}
+
+p.event_location_day {
+	font-size:14px;
+	margin-top:10px;
+	margin-left:90px;
+}
+
+.event_details_day {
+	font-size:14px;
+	font-weight:bold;
+	color:#cc0033;
+	margin-left:90px;
+}
+
+p.week {
+	display:inline;	
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#9b9b9b;
+	font-size:16px;
+}
+
 .horizontal_line {
 	border-bottom:8px solid #9B9B9B;	
 }
-
+div.col-9.horizontal-line {
+	border-bottom:8px solid #9B9B9B;	
+	margin-bottom:10px;
+}
 #weatherbox {
 	margin:0;
 	display:inline-block;
@@ -253,9 +335,11 @@ p.event_location {
 	text-align:center;
 	color:black;
 	padding:0;
-	margin:0;
-	font-size:32px;
+	font-size:28px;
+	text-transform: uppercase;
+	letter-spacing:.5px;
 }
+
 h1.centermonth span {
 	font-size:18px;
 	line-height:18px;
@@ -320,13 +404,36 @@ footer {
 }
 
 .calsquare {
-	font-size:60px;
+	font-size:50px;
 	color:white;
 	font-weight:bold;
-	padding-top:10px;
+	padding-top:15px;
 	width:75px;
 	height:75px;
 	background-color:#CC0033;	
+	text-align:center;
+}
+
+.calsquare_time {
+	font-size:25px;
+	color:white;
+	font-weight:bold;
+	padding-top:15px;
+	width:75px;
+	height:75px;
+	background-color:#CC0033;	
+	text-align:center;
+}
+
+.calsquare_time_medium {
+	font-size:25px;
+	color:white;
+	font-weight:bold;
+	padding-top:70px;
+	width:75px;
+	height:180px;
+	background-color:#CC0033;	
+	text-align:center;
 }
 
 .bulldog_ring {
@@ -466,6 +573,9 @@ footer {
 }
 .col-6 {
 	width:66.666%;
+}
+.col-65 {
+	width:72.221%;
 }
 .col-7 {
 	width:77.777%;	
