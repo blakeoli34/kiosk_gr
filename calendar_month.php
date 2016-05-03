@@ -65,23 +65,23 @@
 				  <input id="community" type="radio" name="filter" value="community">
 				  <label for="community">Community</label><br>
 				  <input id="meetings" type="radio" name="filter" value="meetings">
-				  <label for="meetings">Meetings & Seminars</label><br>
+				  <label for="meetings">Meetings</label><br>
 				  <input id="athletics" type="radio" name="filter" value="athletics" checked>
 				  <label for="athletics">Athletics</label><br>
 				  <input id="students" type="radio" name="filter" value="students">
-				  <label for="students">Student Events</label><br>
+				  <label for="students">Student</label><br>
 				  <input id="asc" type="radio" name="filter" value="asc">
-				  <label for="asc">ASC Speaker Series</label><br>
+				  <label for="asc">ASC</label><br>
 				  <input id="faculty" type="radio" name="filter" value="faculty">
-				  <label for="faculty">Faculty Center</label><br>
+				  <label for="faculty">Faculty</label><br>
 				  <input id="cable" type="radio" name="filter" value="ferriscable">
 				  <label for="cable">Ferris Cable</label><br>
 				  <input id="culture" type="radio" name="filter" value="culture">
 				  <label for="culture">Multicultural</label><br>
 				  <input id="online" type="radio" name="filter" value="online">
-				  <label for="online">Statewide & Online</label><br>
+				  <label for="online">Online</label><br>
 				  <input id="williams" type="radio" name="filter" value="williams">
-				  <label for="williams">Williams Auditorium</label><br>
+				  <label for="williams">Williams</label><br>
 				  <input id="emeriti" type="radio" name="filter" value="emeriti">
 				  <label for="emeriti">Emeriti</label>
 				</form>
