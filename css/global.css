@@ -53,6 +53,9 @@
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/BWSafety.jpg");
 	background-size:cover;
 }
+img.max {
+	max-width:100%;
+}
 /*color text hover classes*/
 
 /*global css*/
@@ -184,8 +187,15 @@ h4.filter {
     background-color: #d8d8d8;
     border:1px solid #979797;
 }
+.filter_list.nobox label:before {
+	display:none;
+	
+}
 input[type=radio]:checked + label:before {
 	background-color:#cc0033;
+}
+.filter_list.nobox input[type=radio]:checked + label {
+	color:#cc0033;
 }
 .calendar_container {
 	padding-top:0px;	
@@ -220,7 +230,17 @@ input[type=radio]:checked + label:before {
 	list-style-type:none;
 	display:inline-block;
 }
-
+.cal_filter.wider a li {
+	width:80px;
+}
+.scroll_box {
+	height:600px;
+	width:300px;
+	overflow:auto;
+}
+.scroll_box ul li {
+	list-style-type: none;
+}
 .cal_filter_week {
 	display:inline-block;
 	text-align:center;
@@ -397,6 +417,10 @@ h1.centermonth span {
 	margin:0;
 	color:#fff;
 	text-transform:uppercase;
+}
+
+.alphabet_list {
+	padding:6px;	
 }
 footer {
 	color:#fff;
