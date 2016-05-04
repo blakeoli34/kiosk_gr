@@ -5,5 +5,5 @@
 	<div class="smallbar">
 	  <div id="datebox"></div>
 	  <div id="clockbox"></div>
-	  <div id="weatherbox">XXº</div>
+	  <div id="weatherbox">45º</div>
 	</div>
