@@ -5,6 +5,11 @@
 	text-align:center;
 	padding-top:10px;
 }
+.filltall {
+	height:145px;
+	text-align:center;
+	padding-top:50px;
+}	
 .fillmargin {
 	height:30px;
 }
@@ -20,6 +25,20 @@
 .darkgray {
 	background:rgba(28,28,28,0.7);
 }
+/*table classes*/
+th.stop {background-color:#CC0033;
+	border-color:none;
+	color:#fff;}
+	
+	th.time {color:#CC0033;
+		border-bottom:1px solid gray;
+	border-top:1px solid gray;
+	border-right:1px solid gray;}
+	
+	td.time {border-top:1px solid gray;
+		border-bottom:1px solid gray;
+		border-right:1px solid gray;}
+
 /*color img classes*/
 #food {
 	background-image: url("../images/GoldFood.jpg");
@@ -49,12 +68,114 @@
 	background-image: url("../images/GoldBus.jpg");
 	background-size:cover;
 }
+
+#uke {
+	background-image: url("../images/UkeGold.jpg");
+	background-size:cover;
+}
+
+#aiga {
+	background-image: url("../images/AIGARed.jpg");
+	background-size:cover;
+}
+#volunteer {
+	background-image: url("../images/BWEvents.jpg");
+	background-size:cover;
+}
+#blackgreek {
+	background-image: url("../images/BGC.jpg");
+	background-size:cover;
+}
+#eu {
+	background-image: url("../images/MIMAGold.jpg");
+	background-size:cover;
+}
+#diversity {
+	background-image: url("../images/DiversityClubRed.jpg");
+	background-size:cover;
+}
 #campusinfo {
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/BWSafety.jpg");
 	background-size:cover;
 }
+<<<<<<< HEAD
 img.max {
 	max-width:100%;
+=======
+.focus.RSO {
+	background-image: url("../images/RSOS.jpg");
+	background-size:cover;
+}
+.focus.rsosecond {
+	background-image: url("../images/aigaheader.jpg");
+	background-size:cover;
+}
+.focus.bus {
+	background-image: url("../images/bus.jpg");
+	background-size:cover;
+}
+#safety {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../images/safety.jpg");
+	background-size:cover;
+}
+#parking {
+	background-image: url("../images/parking.jpg");
+	background-size:cover;
+}
+#dps {
+	background-image: url("../images/dps.jpg");
+	background-size:cover;
+}
+#finaid {
+	background-image: url("../images/timmecss.jpg");
+	background-size:cover;
+}
+#housing {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../images/housing.jpg");
+	background-size:cover;
+}
+
+#oncampus {
+	background-image: url("../images/red-rock.jpg");
+	background-size:cover;
+	}
+#offcampus {
+	background-image: url("../images/offcampus.jpg");
+	background-size:cover;
+	}
+#foodmap {
+	background-image: url("../images/foodmap.jpg");
+	background-size:cover;
+	}
+#thequad {
+	background-image: url("../images/thequad.jpg");
+	background-size:cover;
+	}
+#starbucks {
+	background-image: url("../images/starbucks.jpg");
+	background-size:cover;
+	}
+#themarket {
+	background-image: url("../images/themarket.jpg");
+	background-size:cover;
+	}
+
+#mens {
+	background-image: url("../images/boyssports.jpg");
+	background-size:cover;
+}
+#womens {
+	background-image: url("../images/girlssports.jpg");
+	background-size:cover;
+}
+#results {
+	background-image: url("../images/sportsresults.jpg");
+	background-size:cover;
+}
+#clubs {
+	background-image: url("../images/topstories.jpg");
+	background-size:cover;
+>>>>>>> 9f148871c09ed8037e79b2e114e4ded3ddc5d9bf
 }
 /*color text hover classes*/
 
@@ -71,6 +192,10 @@ body {
 .page {
 	background:#313131 url("../images/pixeld.png") repeat fixed;
 	z-index:1;
+	transition:all 0.3s;
+}
+.page2 {
+	transition:all 0.3s;
 }
 .clear {
   clear: both;
@@ -88,6 +213,22 @@ body {
 	color:#4a4a4a;
 }
 .breadcrumbs a.active {
+	color:#cc0033;
+}
+
+.sidemenu {
+	position:absolute;
+	top:275px;
+	right:20px;
+	color:#cc0033;
+	font-size:8px;
+	font-weight:700;
+}
+.sidemenu a {
+	text-decoration:none;
+	color:#4a4a4a;
+}
+.sidemenu a.active {
 	color:#cc0033;
 }
 header {
@@ -374,6 +515,18 @@ h1.centermonth span {
 	padding-right:50px;
 	padding-top:30px;
 }
+.focus.campusinfo {
+	background-image: url("../images/campus_rainbow.jpg");
+	background-size:cover;
+}
+.focus.wheretoeat {
+	background-image: url("../images/therocktop.jpg");
+	background-size:cover;
+}
+.focus.sports {
+	background-image: url("../images/hockey.jpg");
+	background-size:cover;
+}
 .focus h2 {
 	margin-top:0;
 	margin-bottom:0;
@@ -412,7 +565,8 @@ h1.centermonth span {
 	margin:0 auto;
 	z-index:900;
 }
-.fill h3 {
+.fill h3,
+.filltall h3 {
 	padding:0;
 	margin:0;
 	color:#fff;
@@ -509,12 +663,60 @@ footer {
 }
 
 #overlay {
+	display:none;
 	position:fixed;
 	top:0;
 	left:0;
 	width:100vw;
 	height:100vh;
 	background:rgba(74,74,74,0.8);
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	opacity: 0;
+	transition: all .3s ease-in-out;
+}
+#overlay.active {
+  display: block;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-animation: anim .3s ease-in-out;
+  animation: anim .3s ease-in-out;
+}
+@-webkit-keyframes anim {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes anim {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
 #overlay h2 {
 	text-align:center;
@@ -542,6 +744,7 @@ footer {
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
+	transition:all 0.3s;
 }
 .buttonbar {
     filter: blur(0px);
@@ -565,7 +768,32 @@ footer {
 	vertical-align:middle;
 	padding-top:20px;
 }
+
+/*extra boxes*/
+.rsoinfo {width:80%;
+	background-color:#F3F3F3;
+	line-height:50px;
+	text-align:left;}
+	
+	h1.rso {background-color:#CC0033;
+		text-align:left;
+		color:#fff;
+		padding:10px;
+		font-size:30pt;}
+		
+		span.rsoitalic {font-style:italic;
+			font-size:18pt;
+			line-height:15px;}
+			
+			p.info {padding-left:2%;}
+			
+			.maps {margin-top:20px;}
+			
 /* grid system */
+.page.drop {
+	background:#313131 url("../images/pixeld.png") repeat fixed;
+	height:17.2vh;
+}		
 .row:after {
 	content:"";
 	display:table;
