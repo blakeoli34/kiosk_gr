@@ -78,6 +78,32 @@
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../images/housing.jpg");
 	background-size:cover;
 }
+
+#oncampus {
+	background-image: url("../images/red-rock.jpg");
+	background-size:cover;
+	}
+#offcampus {
+	background-image: url("../images/offcampus.jpg");
+	background-size:cover;
+	}
+#foodmap {
+	background-image: url("../images/foodmap.jpg");
+	background-size:cover;
+	}
+#thequad {
+	background-image: url("../images/thequad.jpg");
+	background-size:cover;
+	}
+#starbucks {
+	background-image: url("../images/starbucks.jpg");
+	background-size:cover;
+	}
+#themarket {
+	background-image: url("../images/themarket.jpg");
+	background-size:cover;
+	}
+
 /*color text hover classes*/
 
 /*global css*/
@@ -387,6 +413,10 @@ h1.centermonth span {
 	background-image: url("../images/campus_rainbow.jpg");
 	background-size:cover;
 }
+.focus.wheretoeat {
+	background-image: url("../images/therocktop.jpg");
+	background-size:cover;
+	}
 .focus h2 {
 	margin-top:0;
 	margin-bottom:0;
