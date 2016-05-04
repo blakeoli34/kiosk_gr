@@ -22,10 +22,10 @@
 			<img class="icon" src="images/burger-white.png" alt="food" />
 			<h3>Food</h3>
 		</div></a>
-		<div id="campusmap" class="col-4 fill red">
+		<a href="campusmap.php"><div id="campusmap" class="col-4 fill red">
 			<img class="icon" src="images/map-white.png" alt="map" />
 			<h3>Campus Map</h3>
-		</div>	
+		</div></a>
 		<a href="RSOHome.php"><div id="rso" class="col-2 fill gray">
 			<img class="icon" src="images/rso.png" alt="rso" />
 			<h3>RSO's</h3>

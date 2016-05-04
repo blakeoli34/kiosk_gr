@@ -47,7 +47,8 @@
 			<h3>Diversity </h3>
 		</div>
 	</div>
-  </div>
+	</div>
+	</div>
   <?php include("inc/btn.php"); ?>
   <?php include("inc/overlay.php"); ?>
   <?php include("js/scripts.php"); ?> 
