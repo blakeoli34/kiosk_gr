@@ -5,11 +5,21 @@
 	text-align:center;
 	padding-top:10px;
 }
+<<<<<<< HEAD
+
+.fill01 {
+	height:150px;
+	text-align:center;
+	padding-top:10px;
+}
+
+=======
 .filltall {
 	height:145px;
 	text-align:center;
 	padding-top:50px;
 }	
+>>>>>>> 5540c1febccb7b07c03cd175af6b2032d2f119fd
 .fillmargin {
 	height:30px;
 }
@@ -384,7 +394,7 @@ input[type=radio]:checked + label:before {
 	display:inline-block;
 	text-align:center;
 	margin-top:0;
-	margin-bottom:20px;
+	margin-bottom:50px;
 	-webkit-padding-start: 0px;
 }
 .cal_filter_week a{
@@ -412,6 +422,14 @@ p.event_headline {
 	font-size:16px;
 	font-weight:bold;
 	color:#4A4A4A;	
+	margin-top:15px;
+}
+
+p.event_headline_top {
+	font-size:16px;
+	font-weight:bold;
+	color:#4A4A4A;	
+	margin-top:0px;
 }
 
 p.event_time {
@@ -425,10 +443,16 @@ p.event_location {
 }
 
 .event_details {
-	font-size:10px;
+	font-size:14px;
 	float:right;	
 	font-weight:bold;
 	margin-top:-26px;
+	color:#cc0033;
+}
+
+.event_details2 {
+	font-size:14px;
+	font-weight:bold;
 	color:#cc0033;
 }
 
@@ -473,7 +497,7 @@ p.week {
 }
 div.col-9.horizontal-line {
 	border-bottom:8px solid #9B9B9B;	
-	margin-bottom:10px;
+	margin-bottom:20px;
 }
 #weatherbox {
 	margin:0;
@@ -490,6 +514,45 @@ div.col-9.horizontal-line {
 	text-align:center;
 	color:#cc0033;
 }
+
+table.calendar {
+	width:75%;
+	height:auto;	
+	
+}
+
+thead.calendar_weekdays {
+	color:#cc0033;
+	text-transform:uppercase;
+	text-align:left;
+	font-size:20px;	
+	letter-spacing: .5px;
+	
+}
+
+td {
+	border-right:solid 4px #d8d8d8;
+	border-bottom:solid 4px #d8d8d8;
+	padding:0 5px 0 5px;	
+}
+
+td:last-child {
+	border-right:none;	
+}
+
+.box {
+	font-size:30px;
+	text-align:left;
+	color:#4A4A4A;
+	line-height:25px;
+	margin: 0 auto;
+	margin-top:10px;
+	margin-right:40px;
+	margin-bottom:40px;
+	font-weight:bold;
+	letter-spacing: .5px;
+}
+
 .centermonth {
 	text-align:center;
 	color:black;
@@ -497,6 +560,7 @@ div.col-9.horizontal-line {
 	font-size:28px;
 	text-transform: uppercase;
 	letter-spacing:.5px;
+	margin-bottom: 50px;
 }
 
 h1.centermonth span {
@@ -505,6 +569,10 @@ h1.centermonth span {
 	color:#9b9b9b;
 	cursor:pointer;
 }
+.focus.calendarimage {
+	background-image: url("../images/soccer.jpg");
+	background-size:cover;
+	}
 .focus {
 	margin:0;
 	height:150px;
@@ -605,11 +673,48 @@ footer {
 	font-size:25px;
 	color:white;
 	font-weight:bold;
-	padding-top:70px;
+	padding-top:90px;
 	width:75px;
-	height:180px;
+	height:224px;
 	background-color:#CC0033;	
 	text-align:center;
+	margin-bottom: 20px;
+}
+
+.calsquare_time_small {
+	font-size:25px;
+	color:white;
+	font-weight:bold;
+	padding-top:24px;
+	width:75px;
+	height:92px;
+	background-color:#CC0033;	
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+.calsquare_time_singleline {
+	font-size:25px;
+	color:white;
+	font-weight:bold;
+	padding-top:15px;
+	width:75px;
+	height:76px;
+	background-color:#CC0033;	
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+.calsquare_time_doubleline {
+	font-size:25px;
+	color:white;
+	font-weight:bold;
+	padding-top:15px;
+	width:75px;
+	height:206px;
+	background-color:#CC0033;	
+	text-align:center;
+	margin-bottom: 20px;
 }
 
 .bulldog_ring {

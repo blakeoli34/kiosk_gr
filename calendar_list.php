@@ -25,78 +25,69 @@
 		<div class="topfilters">
 			<ul class="cal_filter">
 				<a href="#/"><li>Month</li></a>
-				<a href="#/" class="active"><li>Week</li></a>
+				<a href="#/"><li>Week</li></a>
 				<a href="#/"><li>Day</li></a>
-				<a href="#/"><li>List</li></a>
+				<a href="#/"  class="active"><li>List</li></a>
 			</ul>
 		</div>
 	</div>
 	<div class="row">
 		<h1 class="centermonth"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>May<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h1>
 	</div>
-    <div class="row">
-		<div class="topfilters">
-			<ul class="cal_filter_week">
-            	<p class="week">Week:</p>
-				<a href="#/"  class="active"><li>03-09</li></a>
-				<a href="#/"><li>10-16</li></a>
-				<a href="#/"><li>17-23</li></a>
-				<a href="#/"><li>24-30</li></a>
-			</ul>
-		</div>
-	</div>		
 	<div class="row">
     	<div class="col-margin fill"></div>
 		<div class="col-5">
 			<div class="col-9 calendar_container">
-	        	<div class="calsquare">03</div>
+	        	<div class="calsquare">04</div>
 	        	<h5 class="month">May</h5>
-	            <h4 class="weekday">Sunday</h4>
+	            <h4 class="weekday">Wednesday</h4>
 			</div>
 			<div class="col-9 horizontal_line">
-	                <p class="event_headline">Bulldog Club Baseball Hosts Bowling Green</p>
-	                <p class="event_time">Event Time: 12:00 PM</p>
-	                <p class="event_location">Location: Win Kellum Field</p>
-                    <p class="event_details">Event Details ></p>
-			</div>
-            <div class="col-9 horizontal_line">
-	                <p class="event_headline">Blue Line Fitness Club</p>
-	                <p class="event_time">Event Time: 6:00 PM</p>
-	                <p class="event_location">Location: Win Kellum Field</p>
+	                <p class="event_headline">Men's & Women's Track Host GLIAC Outdoor Championships</p>
+	                <p class="event_time">Event Time: 1:30 PM</p>
+	                <p class="event_location">Location: Top Taggart Field</p>
                     <p class="event_details">Event Details ></p>
 			</div>
             <div class="row">
             	<div class="col-9 fillmargin"></div>
             </div>
             <div class="col-9 calendar_container">
-	        	<div class="calsquare">08</div>
+	        	<div class="calsquare">05</div>
+	        	<h5 class="month">May</h5>
+	            <h4 class="weekday">Thursday</h4>
+			</div>
+			<div class="col-9 horizontal_line">
+	                <p class="event_headline">Men's & Women's Track Host GLIAC Outdoor Championships</p>
+	                <p class="event_time">Event Time: 9:00 AM</p>
+	                <p class="event_location">Location: Top Taggart Field</p>
+                    <p class="event_details">Event Details ></p>
+			</div>
+            <div class="row">
+            	<div class="col-9 fillmargin"></div>
+            </div>
+            <div class="col-9 calendar_container">
+	        	<div class="calsquare">06</div>
 	        	<h5 class="month">May</h5>
 	            <h4 class="weekday">Friday</h4>
 			</div>
 			<div class="col-9 horizontal_line">
-	                <p class="event_headline">Women's Tennis Hosts Davenport</p>
-	                <p class="event_time">Event Time: 2:00 PM</p>
-	                <p class="event_location">Location: Racquet and Fitness Center</p>
+	                <p class="event_headline">Men's & Women's Track Host GLIAC Outdoor Championships</p>
+	                <p class="event_time">Event Time: 11:00 AM</p>
+	                <p class="event_location">Location: Top Taggart Field</p>
                     <p class="event_details">Event Details ></p>
 			</div>
             <div class="row">
             	<div class="col-9 fillmargin"></div>
             </div>
             <div class="col-9 calendar_container">
-	        	<div class="calsquare">09</div>
+	        	<div class="calsquare">07</div>
 	        	<h5 class="month">May</h5>
 	            <h4 class="weekday">Saturday</h4>
 			</div>
 			<div class="col-9 horizontal_line">
-	                <p class="event_headline">Men's Tennis Hosts Lake Superior</p>
-	                <p class="event_time">Event Time: 10:00 AM</p>
-	                <p class="event_location">Location: Racquet and Fitness Center</p>
-                    <p class="event_details">Event Details ></p>
-			</div>
-            <div class="col-9 horizontal_line">
-	                <p class="event_headline">Women's Softball Hosts Hillsdale</p>
-	                <p class="event_time">Event Time: 1:00 PM</p>
-	                <p class="event_location">Location: FSU Softball Field</p>
+	                <p class="event_headline">Club Baseball Hosts Central Michigan</p>
+	                <p class="event_time">Event Time: 11:00 AM</p>
+	                <p class="event_location">Location: Win Kellum Field</p>
                     <p class="event_details">Event Details ></p>
 			</div>
 		</div>	

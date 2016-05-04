@@ -11,8 +11,7 @@
 <body>
   <div class="page2">
     <?php include("inc/header.php"); ?> 
-	<div class="focus">
-    	<img alt="" src="" />
+	<div class="focus calendarimage"></div>
 	</div>
 	<div class="buttonbar">
 	</div>
@@ -20,7 +19,7 @@
 		<a href="index.php">HOME</a> > <a href="events.php">EVENTS</a> > <a class="active" href="calendar_month.php">ATHLETIC EVENTS</a>
 	</div>	
 	<div class="row">
-		<h1 class="center">Athletic Events</h1>
+		<h1 class="center">All Events</h1>
 	</div>
 	<div class="row">
 		<div class="topfilters">
@@ -42,51 +41,60 @@
                 <div class="col-2 calendar_container">
                     <div class="calsquare_time_medium">11:00<br>AM</div>
                 </div>
-                <div class="col-margin fill"></div>
+                <div class="col-margin fill01"></div>
                 <div class="col-65 horizontal_line">
-                        <p class="event_headline">OMSS: Graduate Recognition Program</p>
+                        <p class="event_headline_top">OMSS: Graduate Recognition Program</p>
                         <p class="event_location">Location: Win Kellum Field</p>
-                        <p class="event_details">Event Details></p>
+                        <p class="event_details2">Event Details></p>
                 </div>
                 <div class="col-65">
                         <p class="event_headline">Men's & Women's Track Host GLIAC Outdoor Chamionships</p>
                         <p class="event_location">Location: Win Kellum Field</p>
-                        <p class="event_details">Event Details ></p>
+                        <p class="event_details2">Event Details ></p>
                 </div>
             </div>    
-            <div class="col-9 calendar_container">
-	        	<div class="calsquare_time">12:45<br>PM</div>
+            <div class="col-9 horizontal_line">
+            <div class="col-2 calendar_container">
+	        	<div class="calsquare_time_singleline">12:45<br>PM</div>
 			</div>
             <div class="col-margin fill"></div>
-			<div class="col-65 horizontal_line">
-                        <p class="event_headline">Women's Tennis Hosts Davenport</p>
-                        <p class="event_location">Location: Win Kellum Field</p>
-                        <p class="event_details">Event Details ></p>
-                </div>
-            <div class="col-9 calendar_container">
-	        	<div class="calsquare_time">09</div>
-	        	<h5 class="month">May</h5>
-	            <h4 class="weekday">Saturday</h4>
-			</div>
-			<div class="col-9 horizontal_line">
-	                <p class="event_headline">Men's Tennis Hosts Lake Superior</p>
-	                <p class="event_time">Event Time: 10:00 AM</p>
-	                <p class="event_location">Location: Racquet and Fitness Center</p>
-                    <p class="event_details">Event Details ></p>
-			</div>
-            <div class="col-9 horizontal_line">
-	                <p class="event_headline">Women's Softball Hosts Hillsdale</p>
-	                <p class="event_time">Event Time: 1:00 PM</p>
-	                <p class="event_location">Location: FSU Softball Field</p>
-                    <p class="event_details">Event Details ></p>
-			</div>
+	                        <p class="event_headline_top">Board of Trustees Meetings</p>
+                        <p class="event_location">Location: Founders' Room, Room 203</p>
+                        <p class="event_details2">Event Details></p>
 		</div>	
+        		<div class="col-9 horizontal-line"> 
+                <div class="col-9 fillmargin"></div>
+                <div class="col-2 calendar_container">
+                    <div class="calsquare_time_doubleline">1:00<br>PM</div>
+                </div>
+                <div class="col-margin fill01"></div>
+                <div class="col-65 horizontal_line">
+                        <p class="event_headline_top">Board of Trustees Meetings</p>
+                        <p class="event_location">Location: Win Kellum Field</p>
+                        <p class="event_details2">Event Details></p>
+                </div>
+                <div class="col-65">
+                        <p class="event_headline">College of Pharmacy Hooding Ceremony</p>
+                        <p class="event_location">Location: Win Kellum Field</p>
+                        <p class="event_details2">Event Details ></p>
+                </div>
+            </div>    
+            <div class="col-9 horizontal_line">
+            <div class="col-2 calendar_container">
+	        	<div class="calsquare_time_small">7:00<br>PM</div>
+			</div>
+            <div class="col-margin fill"></div>
+	                        <p class="event_headline_top">Michigan College of Optometry Hooding Ceremony</p>
+                        <p class="event_location">Location: Win Kellum Field</p>
+                        <p class="event_details2">Event Details></p>
+		</div>	
+        </div>
 	     <div class="col-1 fill"></div>
 	     <div class="col-2">
 	        <div class="filter_box">
 	        	<h4 class="filter">Filter:</h4>
 				<form class="filter_list">
-				  <input id="allevents" type="radio" name="filter" value="allevents">
+				  <input id="allevents" type="radio" name="filter" value="allevents"  checked>
 				  <label for="allevents">All Events</label><br>
 				  <input id="academic" type="radio" name="filter" value="academic">
 				  <label for="academic">Academic</label><br>
@@ -98,7 +106,7 @@
 				  <label for="community">Community</label><br>
 				  <input id="meetings" type="radio" name="filter" value="meetings">
 				  <label for="meetings">Meetings</label><br>
-				  <input id="athletics" type="radio" name="filter" value="athletics" checked>
+				  <input id="athletics" type="radio" name="filter" value="athletics">
 				  <label for="athletics">Athletics</label><br>
 				  <input id="students" type="radio" name="filter" value="students">
 				  <label for="students">Student</label><br>
