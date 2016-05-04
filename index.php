@@ -36,10 +36,10 @@
 			<img class="icon" src="images/events-white.png" alt="events" />
 			<h3>Events</h3>
 		</div></a>
-		<div id="faculty" class="col-3 fill gold">
+		<a href="faculty.php"><div id="faculty" class="col-3 fill gold">
 			<img class="icon" src="images/apple.png" alt="faculty" />
 			<h3>Faculty</h3>
-		</div>	
+		</div></a>
 	</div>
 	<div class="row">
 		<a href="sports.php"><div id="sports" class="col-9 fill red">
@@ -48,10 +48,10 @@
 		</div></a>
 	</div>
 	<div class="row">
-		<div id="bus" class="col-4 fill gold">
+		<a href="busschedule.php"><div id="bus" class="col-4 fill gold">
 			<img class="icon" src="images/bus.png" alt="bus" />
 			<h3>Bus Schedule</h3>
-		</div>
+		</div></a>
 		<a href="campusinfo.php"><div id="campusinfo" class="col-5 fill gray">
 			<img class="icon" src="images/campus-information.png" alt="campus info" />
 			<h3>Campus Information</h3>
