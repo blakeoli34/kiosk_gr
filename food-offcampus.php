@@ -30,19 +30,18 @@
                 <div class="col-65 horizontal_line">
                 <img src="images/tbell.png">
                 <br>
-                        <p class="event_headline">The University Ceneter</p>
-                        <p class="event_location">Hours: 7:00AM-9:00PM<br>Monday - Friday</p>
-                        <p class="event_location">10:00AM until 9:00PM<br>Saturday & Sunday</p>
+                        <p class="event_headline">Taco Bell</p>
+                        <p class="event_location">Hours: Open 24 hours<br>
                         <p class="event_details">map ></p>
                 </div>
             </div>    
            
             <div class="col-margin fill"></div>
 			<div class="col-65 horizontal_line">
-                        <p class="event_headline">Business/IRC</p>
-                        <p class="event_location">Hours: 7:30AM-7:00PM<br>Monday - Thursday</p>
-                        <p class="event_location">7:30AM until 2:30PM<br>Friday</p>
-                        <p class="event_location">Closed Saturday and Sunday</p>
+             <img src="images/mc.png">
+                <br>
+                        <p class="event_headline">McDonalds</p>
+                        <p class="event_location">Hours: Open 24 hours<br>
                         <p class="event_details">map ></p>
                 </div>
            
