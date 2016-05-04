@@ -26,10 +26,10 @@
 			<img class="icon" src="images/map-white.png" alt="map" />
 			<h3>Campus Map</h3>
 		</div>	
-		<div id="rso" class="col-2 fill gray">
+		<a href="RSOHome.php"><div id="rso" class="col-2 fill gray">
 			<img class="icon" src="images/rso.png" alt="rso" />
 			<h3>RSO's</h3>
-		</div>
+		</div></a>
 	</div>
 	<div class="row">
 		<a href="calendar_month.php"><div id="events" class="col-6 fill gray">
@@ -48,10 +48,10 @@
 		</div>
 	</div>
 	<div class="row">
-		<div id="bus" class="col-4 fill gold">
+		<a href="BusSchedule.php"><div id="bus" class="col-4 fill gold">
 			<img class="icon" src="images/bus.png" alt="bus" />
 			<h3>Bus Schedule</h3>
-		</div>
+		</div></a>
 		<div id="campusinfo" class="col-5 fill gray">
 			<img class="icon" src="images/campus-information.png" alt="campus info" />
 			<h3>Campus Information</h3>
