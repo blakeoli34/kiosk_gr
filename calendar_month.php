@@ -12,7 +12,6 @@
   <div class="page2">
     <?php include("inc/header.php"); ?> 
 	<div class="focus calendarimage"></div>
-	</div>
 	<div class="buttonbar">
 	</div>
 	<div class="breadcrumbs">
@@ -25,82 +24,77 @@
 		<div class="topfilters">
 			<ul class="cal_filter">
 				<a href="#/"><li>Month</li></a>
-				<a href="#/" class="active"><li>Week</li></a>
+				<a href="#/"><li>Week</li></a>
 				<a href="#/"><li>Day</li></a>
-				<a href="#/"><li>List</li></a>
+				<a href="#/"  class="active"><li>List</li></a>
 			</ul>
 		</div>
 	</div>
 	<div class="row">
 		<h1 class="centermonth"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>May<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h1>
 	</div>
-    <div class="row">
-		<div class="topfilters">
-			<ul class="cal_filter_week">
-            	<p class="week">Week:</p>
-				<a href="#/"  class="active"><li>03-09</li></a>
-				<a href="#/"><li>10-16</li></a>
-				<a href="#/"><li>17-23</li></a>
-				<a href="#/"><li>24-30</li></a>
-			</ul>
-		</div>
-	</div>		
 	<div class="row">
-    	<div class="col-margin fill"></div>
-		<div class="col-5">
-			<div class="col-9 calendar_container">
-	        	<div class="calsquare">03</div>
-	        	<h5 class="month">May</h5>
-	            <h4 class="weekday">Sunday</h4>
-			</div>
-			<div class="col-9 horizontal_line">
-	                <p class="event_headline">Bulldog Club Baseball Hosts Bowling Green</p>
-	                <p class="event_time">Event Time: 12:00 PM</p>
-	                <p class="event_location">Location: Win Kellum Field</p>
-                    <p class="event_details">Event Details ></p>
-			</div>
-            <div class="col-9 horizontal_line">
-	                <p class="event_headline">Blue Line Fitness Club</p>
-	                <p class="event_time">Event Time: 6:00 PM</p>
-	                <p class="event_location">Location: Win Kellum Field</p>
-                    <p class="event_details">Event Details ></p>
-			</div>
-            <div class="row">
-            	<div class="col-9 fillmargin"></div>
-            </div>
-            <div class="col-9 calendar_container">
-	        	<div class="calsquare">08</div>
-	        	<h5 class="month">May</h5>
-	            <h4 class="weekday">Friday</h4>
-			</div>
-			<div class="col-9 horizontal_line">
-	                <p class="event_headline">Women's Tennis Hosts Davenport</p>
-	                <p class="event_time">Event Time: 2:00 PM</p>
-	                <p class="event_location">Location: Racquet and Fitness Center</p>
-                    <p class="event_details">Event Details ></p>
-			</div>
-            <div class="row">
-            	<div class="col-9 fillmargin"></div>
-            </div>
-            <div class="col-9 calendar_container">
-	        	<div class="calsquare">09</div>
-	        	<h5 class="month">May</h5>
-	            <h4 class="weekday">Saturday</h4>
-			</div>
-			<div class="col-9 horizontal_line">
-	                <p class="event_headline">Men's Tennis Hosts Lake Superior</p>
-	                <p class="event_time">Event Time: 10:00 AM</p>
-	                <p class="event_location">Location: Racquet and Fitness Center</p>
-                    <p class="event_details">Event Details ></p>
-			</div>
-            <div class="col-9 horizontal_line">
-	                <p class="event_headline">Women's Softball Hosts Hillsdale</p>
-	                <p class="event_time">Event Time: 1:00 PM</p>
-	                <p class="event_location">Location: FSU Softball Field</p>
-                    <p class="event_details">Event Details ></p>
-			</div>
-		</div>	
-	     <div class="col-1 fill"></div>
+		<div class="col-margin fill"></div>	
+	    <div class="col-6">
+			<table class="calendar">
+		    <thead class="calendar_weekdays">
+		        <th>Sun</span></th>
+		        <th>Mon</span></th>
+		        <th>Tue</span></th>
+		        <th>Wed</span></th>
+		        <th>Thu</span></th>
+		        <th>Fri</span></th>
+		        <th>Sat</span></th>
+		    </thead>
+		    <tbody id="calbody">
+		        <tr>
+		            <td><div class="box tgray">27</div></td>
+		            <td><div class="box tgray">28</div></td>
+		            <td><div class="box tgray">29</div></td>
+		            <td><div class="box tgray">30</div></td>
+		            <td><div class="box">01</div></td>
+		            <td><div class="box">02</div></td>
+		            <td><div class="box">03</div></td>
+		        </tr>
+		        <tr>
+		            <td><div class="box">04</div></td>
+		            <td><div class="box">05</div></td>
+		            <td><div class="box">06</div></td>
+		            <td><div class="box">07</div></td>
+		            <td><div class="box">08</div></td>
+		            <td><div class="box">09</div></td>
+		            <td><div class="box">10</div></td>
+		        </tr>
+		        <tr>
+		            <td><div class="box">11</div></td>
+		            <td><div class="box">12</div></td>
+		            <td><div class="box">13</div></td>
+		            <td><div class="box">14</div></td>
+		            <td><div class="box">15</div></td>
+		            <td><div class="box">16</div></td>
+		            <td><div class="box">17</div></td>
+		        </tr>
+		         <tr>
+		            <td><div class="box">18</div></td>
+		            <td><div class="box">19</div></td>
+		            <td><div class="box">20</div></td>
+		            <td><div class="box">21</div></td>
+		            <td><div class="box">22</div></td>
+		            <td><div class="box">23</div></td>
+		            <td><div class="box">24</div></td>
+		        </tr>
+		           <tr>
+		            <td><div class="box">25</div></td>
+		            <td><div class="box">26</div></td>
+		            <td><div class="box">27</div></td>
+		            <td><div class="box">28</div></td>
+		            <td><div class="box">29</div></td>
+		            <td><div class="box">30</div></td>
+		            <td><div class="box">31</div></td>
+		        </tr>
+		    </tbody>
+		</table>
+	</div>	
 	     <div class="col-2">
 	        <div class="filter_box">
 	        	<h4 class="filter">Filter:</h4>
@@ -140,12 +134,6 @@
 	     </div>	
         <div class="col-margin fill"></div>		
 	</div>
-	<div class="row">
-		<div class="col-4">
-		</div>
-		<div class="col-5">
-		</div>
-	</div>	
   </div>
   <?php include("inc/btn.php"); ?>
   <?php include("inc/overlay.php"); ?>

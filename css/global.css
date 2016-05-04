@@ -514,45 +514,44 @@ div.col-9.horizontal-line {
 	text-align:center;
 	color:#cc0033;
 }
-
 table.calendar {
-	width:75%;
-	height:auto;	
-	
+	width:95%;
+	border-spacing:4px 0px;
 }
 
 thead.calendar_weekdays {
 	color:#cc0033;
 	text-transform:uppercase;
 	text-align:left;
-	font-size:20px;	
+	font-size:14px;	
 	letter-spacing: .5px;
 	
 }
-
+th {
+	width:14.5%;
+}
 td {
 	border-right:solid 4px #d8d8d8;
 	border-bottom:solid 4px #d8d8d8;
 	padding:0 5px 0 5px;	
 }
-
 td:last-child {
 	border-right:none;	
 }
 
 .box {
-	font-size:30px;
+	font-size:14px;
 	text-align:left;
 	color:#4A4A4A;
 	line-height:25px;
 	margin: 0 auto;
-	margin-top:10px;
-	margin-right:40px;
-	margin-bottom:40px;
+	margin-bottom:20px;
 	font-weight:bold;
 	letter-spacing: .5px;
 }
-
+.box.tgray {
+	color:#979797;
+}
 .centermonth {
 	text-align:center;
 	color:black;
