@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="page2">
-    <?php include("inc/header.php"); ?> 
+    <?php $pageTitle = 'Sports'; include("inc/header.php"); ?> 
 	<div class="focus sports">
 	</div>
 	<div class="buttonbar">

@@ -10,13 +10,13 @@
 </head>
 <body>
   <div class="page2">
-    <?php include("inc/header.php"); ?> 
+    <?php $pageTitle = 'Events'; include("inc/header.php"); ?> 
 	<div class="focus calendarimage"></div>
 	</div>
 	<div class="buttonbar">
 	</div>
 	<div class="breadcrumbs">
-		<a href="index.php">HOME</a> > <a href="events.php">EVENTS</a> > <a class="active" href="calendar_month.php">ATHLETIC EVENTS</a>
+		<a href="index.php">HOME</a> > <a href="calendar_day.php">EVENTS</a> > <a class="active" href="calendar_day.php">ALL EVENTS</a>
 	</div>	
 	<div class="row">
 		<h1 class="center">All Events</h1>
@@ -24,10 +24,10 @@
 	<div class="row">
 		<div class="topfilters">
 			<ul class="cal_filter">
-				<a href="#/"><li>Month</li></a>
-				<a href="#/"><li>Week</li></a>
-				<a href="#/"  class="active"><li>Day</li></a>
-				<a href="#/"><li>List</li></a>
+				<a href="calendar_month.php"><li>Month</li></a>
+				<a href="calendar_week.php"><li>Week</li></a>
+				<a href="calendar_day.php" class="active"><li>Day</li></a>
+				<a href="calendar_list.php"><li>List</li></a>
 			</ul>
 		</div>
 	</div>

@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="page2">
-    <?php include("inc/header.php"); ?> 
+    <?php $pageTitle = 'RSO'; include("inc/header.php"); ?> 
 	<div class="focus rsosecond">
 	</div>
 	<div class="buttonbar">

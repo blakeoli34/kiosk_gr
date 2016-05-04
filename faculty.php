@@ -10,14 +10,14 @@
 </head>
 <body>
   <div class="page2">
-    <?php include("inc/header.php"); ?> 
+    <?php $pageTitle = 'Faculty'; include("inc/header.php"); ?> 
 	<div class="focus">
     	<img alt="" src="" />
 	</div>
 	<div class="buttonbar">
 	</div>
 	<div class="breadcrumbs">
-		<a href="index.php">HOME</a> </a> > <a class="active" href="calendar_month.php">Faculty</a>
+		<a href="index.php">HOME</a> </a> > <a class="active" href="calendar_month.php">FACULTY</a>
 	</div>	
 	<div class="row">
 		<h1 class="center">Faculty</h1>
@@ -29,11 +29,10 @@
 				<a href="#/"><li>Department</li></a>
 			</ul>
 		</div>
-	</div>
 	</div>		
 	<div class="row">
     	<div class="col-margin fill"></div>
-        <div class="col-0">
+        <div class="col-margin">
 	        <div class="alphabet_list">
 				<form class="filter_list nobox">
 				  <input id="allevents" type="radio" name="filter" value="allevents">
@@ -92,7 +91,7 @@
                   	</form>
 	        </div>
 	     </div>
-          <div class="col-2 scroll_box">
+          <div class="col-3 scroll_box">
          <ul>
          <li>Stephen Allie</li>
          <li>Derek Ameel</li>
@@ -104,7 +103,7 @@
          <li>Patrick Bishop</li>
          <li>Doug Blakemore</li>
          <li>Felix Bollou</li>
-         <li>Trudy Borst</li>
+         <li class="active">Trudy Borst</li>
          <li>Lynn Bowen</li>
          <li>Mark Brandly</li>
          <li>Lianne Briggs</li>
@@ -117,7 +116,7 @@
          <li>Linda Butler</li>
          </ul>
          </div>
-         <div class="col-1 fill"></div>
+         <div class="col-margin fill"></div>
 		<div class="col-4">
 <img src="images/trudy.jpg" alt="Trudy Borst" class="weekday max">
 <h2>TRUDY BORST</h2>
@@ -132,12 +131,9 @@
      
         <div class="col-margin fill"></div>		
 	</div>
-	<div class="row">
-		<div class="col-4">
-		</div>
-		<div class="col-5">
-		</div>
-	</div>	
+	</div>
+	</div>
+  </div>
   </div>
   <?php include("inc/btn.php"); ?>
   <?php include("inc/overlay.php"); ?>

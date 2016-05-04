@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="page2">
-    <?php include("inc/header.php"); ?> 
+    <?php $pageTitle = 'Food'; include("inc/header.php"); ?> 
 	<div class="focus wheretoeat">
 	</div>
 	<div class="buttonbar">
@@ -34,6 +34,7 @@
 			<h3>MAPS</h3>
 		</div>
 	</div>
+	<div class="page drop"></div>
   </div>
   <?php include("inc/btn.php"); ?>
   <?php include("inc/overlay.php"); ?>

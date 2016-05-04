@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="page2">
-    <?php include("inc/header.php"); ?> 
+    <?php $pageTitle = 'RSO'; include("inc/header.php"); ?> 
 	<div class="focus RSO">
 	</div>
 	<div class="buttonbar">
@@ -25,25 +25,25 @@
 		<h1 class="center">RSOS</h1>
 	</div>
 	<div class="row">
-		<div id="uke" class="col-half fill">
+		<div id="uke" class="col-half filltall">
 			<h3>Uke Club</h3>
 		</div>
-		<a href="RSOSecondary.php"><div id="aiga" class="col-half fill">
+		<a href="RSOSecondary.php"><div id="aiga" class="col-half filltall">
 			<h3>AIGA</h3>
 		</div></a>
 	</div>
 	<div class="row">
-		<div id="volunteer" class="col-half fill">
+		<div id="volunteer" class="col-half filltall">
 			<h3>Volunteer Center</h3>
 		</div>
-		<div id="blackgreek" class="col-half fill gray">
+		<div id="blackgreek" class="col-half filltall gray">
 			<h3>Black Greek Council</h3>
 	</div>
 	<div class="row">
-		<div id="eu" class="col-half fill">
+		<div id="eu" class="col-half filltall">
 			<h3>Entertainment Unlimited</h3>
 		</div>
-		<div id="diversity" class="col-half fill">
+		<div id="diversity" class="col-half filltall">
 			<h3>Diversity </h3>
 		</div>
 	</div>

@@ -10,16 +10,16 @@
 </head>
 <body>
   <div class="page2">
-    <?php include("inc/header.php"); ?> 
+    <?php $pageTitle = 'Bus Schedule'; include("inc/header.php"); ?> 
 	<div class="focus bus">
 	</div>
 	<div class="buttonbar">
 	</div>
 	<div class="breadcrumbs">
-		<a href="index.php">HOME</a> > <a class="active" href="BusSchedule.php">BUS SCHEDULE</a>
+		<a href="index.php">HOME</a> > <a class="active" href="busschedule.php">BUS SCHEDULE</a>
 	</div>
 	<div class="sidemenu">
-		<a href="">MAPS</a> - <a class="active" href="BusSchedule.php">DOWNSTATE</a> <a href="BusSchedule.php">BIG RAPIDS</a>
+		<a href="">MAPS</a> - <a class="active" href="busschedule.php">DOWNSTATE</a> <a href="busschedule.php">BIG RAPIDS</a>
 	</div>
 	<div class="row">
 		<h1 class="center">Bus Schedule</h1>

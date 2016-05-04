@@ -10,13 +10,13 @@
 </head>
 <body>
   <div class="page2">
-    <?php include("inc/header.php"); ?> 
+    <?php $pageTitle = 'Food'; include("inc/header.php"); ?> 
 	<div class="focus wheretoeat">
 	</div>
 	<div class="buttonbar">
 	</div>
 	<div class="breadcrumbs">
-		<a href="index.php">HOME</a> > <a href="events.php">ON CAMPUS</a> > <a class="active" href="starbucks.php">STARBUCKS</a>
+		<a href="index.php">HOME</a> > <a href="whereto_eat.php">FOOD</a> > <a href="food-oncampus.php">ON CAMPUS</a> > <a class="active" href="starbucks.php">STARBUCKS</a>
 	</div>	
 	<div class="row">
 		<h1 class="center">Starbucks</h1>

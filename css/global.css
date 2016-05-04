@@ -5,21 +5,16 @@
 	text-align:center;
 	padding-top:10px;
 }
-<<<<<<< HEAD
-
 .fill01 {
 	height:150px;
 	text-align:center;
 	padding-top:10px;
 }
-
-=======
 .filltall {
 	height:145px;
 	text-align:center;
 	padding-top:50px;
-}	
->>>>>>> 5540c1febccb7b07c03cd175af6b2032d2f119fd
+}
 .fillmargin {
 	height:30px;
 }
@@ -121,6 +116,10 @@ img.max {
 }
 .focus.bus {
 	background-image: url("../images/bus.jpg");
+	background-size:cover;
+}
+.focus.home {
+	background-image: url("../images/headerimage.jpg");
 	background-size:cover;
 }
 #safety {
@@ -245,10 +244,17 @@ header {
 	text-transform:uppercase;
 	text-align:center;
 	height:75px;
-	margin-top:-21px;
 }
 header h1 {
-	line-height:75px;
+	line-height:50px;
+	margin:0;
+	padding:0;
+}
+header h3 {
+	margin:0;
+	padding:0;
+	font-style:italic;
+	line-height:10px;
 }
 .smallbar {
 	width:100%;
@@ -383,12 +389,16 @@ input[type=radio]:checked + label:before {
 	width:80px;
 }
 .scroll_box {
-	height:600px;
-	width:300px;
+	height:70vh;
+	width:100%;
 	overflow:auto;
 }
 .scroll_box ul li {
 	list-style-type: none;
+}
+.scroll_box ul li.active {
+	color:#cc0033;
+	font-weight:bold;
 }
 .cal_filter_week {
 	display:inline-block;
@@ -576,9 +586,9 @@ h1.centermonth span {
 	margin:0;
 	height:150px;
 	background:#F5A623;
-	text-align:right;
-	padding-right:50px;
-	padding-top:30px;
+	text-align:left;
+	padding-left:20px;
+	padding-top:20px;
 }
 .focus.campusinfo {
 	background-image: url("../images/campus_rainbow.jpg");
@@ -595,13 +605,21 @@ h1.centermonth span {
 .focus h2 {
 	margin-top:0;
 	margin-bottom:0;
-	color:#cc0033;
-	font-size:36px;
+	color:#fff;
+	font-size:24px;
+	text-transform:uppercase;
+}
+.focus h2 .large {
+	font-size:32px;
+	font-style:italic;
+	display:block;
+	text-transform:uppercase;
 }
 .focus h4 {
 	margin-top:0;
-	color:#F8E71C;
+	color:#F5A623;
 	font-style:italic;
+	font-size:12px;
 	font-weight:400;
 }
 .buttonbar {
@@ -619,7 +637,7 @@ h1.centermonth span {
 	height:80px;
 	border-radius:150px;
 	background:#fff url(../images/paw.gif) no-repeat center center;
-	background-size:65px;
+	background-size:60px;
 	margin:0 auto;
 	text-align:center;
 	z-index:300;
@@ -915,6 +933,9 @@ footer {
 }
 .col-2 {
 	width:22.222%;
+}
+.col-25 {
+	width:27.777%;
 }
 .col-3 {
 	width:33.333%;

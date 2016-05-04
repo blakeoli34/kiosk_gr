@@ -10,10 +10,10 @@
 </head>
 <body>
   <div class="page">
-    <?php include("inc/header.php"); ?> 
-	<div class="focus">
-		<h2>Exam Schedule</h2>
-		<h4>Now Available</h4>
+    <?php $pageTitle = 'Home'; include("inc/header.php"); ?> 
+	<div class="focus home">
+		<h2><span class="large">Spring</span>Commencement Ceremony</h2>
+		<h4>Friday, May 6 and Saturday, May 7<br>at the Ewigleben Sports Complex</h4>
 	</div>
 	<div class="buttonbar">
 	</div>
@@ -32,7 +32,7 @@
 		</div></a>
 	</div>
 	<div class="row">
-		<a href="calendar_month.php"><div id="events" class="col-6 fill gray">
+		<a href="calendar_day.php"><div id="events" class="col-6 fill gray">
 			<img class="icon" src="images/events-white.png" alt="events" />
 			<h3>Events</h3>
 		</div></a>
