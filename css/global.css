@@ -25,6 +25,20 @@
 .darkgray {
 	background:rgba(28,28,28,0.7);
 }
+/*table classes*/
+th.stop {background-color:#CC0033;
+	border-color:none;
+	color:#fff;}
+	
+	th.time {color:#CC0033;
+		border-bottom:1px solid gray;
+	border-top:1px solid gray;
+	border-right:1px solid gray;}
+	
+	td.time {border-top:1px solid gray;
+		border-bottom:1px solid gray;
+		border-right:1px solid gray;}
+
 /*color img classes*/
 #food {
 	background-image: url("../images/GoldFood.jpg");
@@ -54,8 +68,46 @@
 	background-image: url("../images/GoldBus.jpg");
 	background-size:cover;
 }
+
+#uke {
+	background-image: url("../images/UkeGold.jpg");
+	background-size:cover;
+}
+
+#aiga {
+	background-image: url("../images/AIGARed.jpg");
+	background-size:cover;
+}
+#volunteer {
+	background-image: url("../images/BWEvents.jpg");
+	background-size:cover;
+}
+#blackgreek {
+	background-image: url("../images/BGC.jpg");
+	background-size:cover;
+}
+#eu {
+	background-image: url("../images/MIMAGold.jpg");
+	background-size:cover;
+}
+#diversity {
+	background-image: url("../images/DiversityClubRed.jpg");
+	background-size:cover;
+}
 #campusinfo {
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/BWSafety.jpg");
+	background-size:cover;
+}
+.focus.RSO {
+	background-image: url("../images/RSOS.jpg");
+	background-size:cover;
+}
+.focus.rsosecond {
+	background-image: url("../images/aigaheader.jpg");
+	background-size:cover;
+}
+.focus.bus {
+	background-image: url("../images/bus.jpg");
 	background-size:cover;
 }
 #safety {
@@ -78,6 +130,7 @@
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../images/housing.jpg");
 	background-size:cover;
 }
+<<<<<<< HEAD
 
 #oncampus {
 	background-image: url("../images/red-rock.jpg");
@@ -104,6 +157,24 @@
 	background-size:cover;
 	}
 
+=======
+#mens {
+	background-image: url("../images/boyssports.jpg");
+	background-size:cover;
+}
+#womens {
+	background-image: url("../images/girlssports.jpg");
+	background-size:cover;
+}
+#results {
+	background-image: url("../images/sportsresults.jpg");
+	background-size:cover;
+}
+#clubs {
+	background-image: url("../images/topstories.jpg");
+	background-size:cover;
+}
+>>>>>>> cfc1222227b18e59c15b7c3d4019b239ac190c95
 /*color text hover classes*/
 
 /*global css*/
@@ -140,6 +211,22 @@ body {
 	color:#4a4a4a;
 }
 .breadcrumbs a.active {
+	color:#cc0033;
+}
+
+.sidemenu {
+	position:absolute;
+	top:275px;
+	right:20px;
+	color:#cc0033;
+	font-size:8px;
+	font-weight:700;
+}
+.sidemenu a {
+	text-decoration:none;
+	color:#4a4a4a;
+}
+.sidemenu a.active {
 	color:#cc0033;
 }
 header {
@@ -413,10 +500,17 @@ h1.centermonth span {
 	background-image: url("../images/campus_rainbow.jpg");
 	background-size:cover;
 }
+<<<<<<< HEAD
 .focus.wheretoeat {
 	background-image: url("../images/therocktop.jpg");
 	background-size:cover;
 	}
+=======
+.focus.sports {
+	background-image: url("../images/hockey.jpg");
+	background-size:cover;
+}
+>>>>>>> cfc1222227b18e59c15b7c3d4019b239ac190c95
 .focus h2 {
 	margin-top:0;
 	margin-bottom:0;
@@ -654,7 +748,32 @@ footer {
 	vertical-align:middle;
 	padding-top:20px;
 }
+
+/*extra boxes*/
+.rsoinfo {width:80%;
+	background-color:#F3F3F3;
+	line-height:50px;
+	text-align:left;}
+	
+	h1.rso {background-color:#CC0033;
+		text-align:left;
+		color:#fff;
+		padding:10px;
+		font-size:30pt;}
+		
+		span.rsoitalic {font-style:italic;
+			font-size:18pt;
+			line-height:15px;}
+			
+			p.info {padding-left:2%;}
+			
+			.maps {margin-top:20px;}
+			
 /* grid system */
+.page.drop {
+	background:#313131 url("../images/pixeld.png") repeat fixed;
+	height:17.2vh;
+}		
 .row:after {
 	content:"";
 	display:table;
