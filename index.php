@@ -18,10 +18,10 @@
 	<div class="buttonbar">
 	</div>
 	<div class="row">
-		<div id="food" class="col-3 fill gold">
+		<a href="whereto_eat.php"><div id="food" class="col-3 fill gold">
 			<img class="icon" src="images/burger-white.png" alt="food" />
 			<h3>Food</h3>
-		</div>
+		</div></a>
 		<div id="campusmap" class="col-4 fill red">
 			<img class="icon" src="images/map-white.png" alt="map" />
 			<h3>Campus Map</h3>

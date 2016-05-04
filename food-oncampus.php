@@ -32,9 +32,9 @@
 		</div>
 	</div>
 	<div class="row">
-		<div id="starbucks" class="col-half filltall gold">
+		<a href="starbucks.php"><div id="starbucks" class="col-half filltall gold">
 			<h3>STARBUCKS</h3>
-		</div>
+		</div></a>
 		<div id="themarket" class="col-half filltall darkgrey">
 			<h3>THE MARKET</h3>
 		</div>

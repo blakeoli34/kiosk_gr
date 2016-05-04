@@ -130,7 +130,6 @@ th.stop {background-color:#CC0033;
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../images/housing.jpg");
 	background-size:cover;
 }
-<<<<<<< HEAD
 
 #oncampus {
 	background-image: url("../images/red-rock.jpg");
@@ -157,7 +156,6 @@ th.stop {background-color:#CC0033;
 	background-size:cover;
 	}
 
-=======
 #mens {
 	background-image: url("../images/boyssports.jpg");
 	background-size:cover;
@@ -174,7 +172,6 @@ th.stop {background-color:#CC0033;
 	background-image: url("../images/topstories.jpg");
 	background-size:cover;
 }
->>>>>>> cfc1222227b18e59c15b7c3d4019b239ac190c95
 /*color text hover classes*/
 
 /*global css*/
@@ -500,17 +497,14 @@ h1.centermonth span {
 	background-image: url("../images/campus_rainbow.jpg");
 	background-size:cover;
 }
-<<<<<<< HEAD
 .focus.wheretoeat {
 	background-image: url("../images/therocktop.jpg");
 	background-size:cover;
-	}
-=======
+}
 .focus.sports {
 	background-image: url("../images/hockey.jpg");
 	background-size:cover;
 }
->>>>>>> cfc1222227b18e59c15b7c3d4019b239ac190c95
 .focus h2 {
 	margin-top:0;
 	margin-bottom:0;

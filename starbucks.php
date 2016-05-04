@@ -47,7 +47,7 @@
 			</div>
             <div class="col-1 fill"></div>
             <div class="col-3">
-            	<img src="images/starbucks_logo.png">
+            	<img class="max" src="images/starbucks_logo.png">
             </div>
 		</div>	
 	  </div>		

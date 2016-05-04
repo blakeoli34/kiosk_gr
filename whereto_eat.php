@@ -22,14 +22,14 @@
 		<h1 class="center">Where to Eat..</h1>
 	</div>
     <div class="row">
-		<div id="oncampus" class="col-9 filltall red">
+		<a href="food-oncampus.php"><div id="oncampus" class="col-9 filltall red">
 			<h3>ON CAMPUS</h3>
-		</div>
+		</div></a>
 	</div>
 	<div class="row">
-		<div id="offcampus" class="col-half filltall gold">
+		<a href="food-offcampus.php"><div id="offcampus" class="col-half filltall gold">
 			<h3>OFF CAMPUS</h3>
-		</div>
+		</div></a>
 		<div id="foodmap" class="col-half filltall darkgrey">
 			<h3>MAPS</h3>
 		</div>
