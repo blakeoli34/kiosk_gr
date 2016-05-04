@@ -1,4 +1,4 @@
-<div id="overlay" style="display:none;">
+<div id="overlay">
 	<h2>I want to see...</h2>
 	<div class="row">
 		<div class="col-3">
