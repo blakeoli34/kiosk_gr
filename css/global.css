@@ -400,7 +400,7 @@ input[type=radio]:checked + label:before {
 	width:80px;
 }
 .scroll_box {
-	height:70vh;
+	height:80vh;
 	width:100%;
 	overflow:auto;
 }
