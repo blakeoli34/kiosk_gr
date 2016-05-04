@@ -122,6 +122,14 @@ img.max {
 	background-image: url("../images/headerimage.jpg");
 	background-size:cover;
 }
+.focus.faculty {
+	background-image: url("../images/faculty.jpg");
+	background-size:cover;
+}
+.focus.calendarimageall {
+	background-image: url("../images/allevents.jpg");
+	background-size:cover;
+}
 #safety {
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../images/safety.jpg");
 	background-size:cover;
@@ -199,10 +207,10 @@ body {
 .page {
 	background:#313131 url("../images/pixeld.png") repeat fixed;
 	z-index:1;
-	transition:all 0.3s;
+	transition:all 0.5s;
 }
 .page2 {
-	transition:all 0.3s;
+	transition:all 0.5s;
 }
 .clear {
   clear: both;
@@ -441,7 +449,14 @@ p.event_headline_top {
 	color:#4A4A4A;	
 	margin-top:0px;
 }
-
+.sport {
+	text-align:center;
+	text-transform:uppercase;
+	color:#fff;
+}
+.sport h2 {
+	margin:8px;
+}
 p.event_time {
 	font-size:14px;
 	margin-bottom: 0px;
@@ -451,7 +466,9 @@ p.event_location {
 	font-size:14px;
 	margin-top:10px;
 }
-
+p.lead {
+	line-height:22px;
+}
 .event_details {
 	font-size:14px;
 	float:right;	
@@ -783,60 +800,22 @@ footer {
 }
 
 #overlay {
-	display:none;
+	visibility:hidden;
 	position:fixed;
 	top:0;
 	left:0;
 	width:100vw;
 	height:100vh;
+	max-height:0;
+	opacity:0;
 	background:rgba(74,74,74,0.8);
-	-webkit-transform: scale(0);
-	transform: scale(0);
-	opacity: 0;
-	transition: all .3s ease-in-out;
+	transition:all 0.5s;
 }
 #overlay.active {
-  display: block;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  opacity: 1;
-  -webkit-animation: anim .3s ease-in-out;
-  animation: anim .3s ease-in-out;
-}
-@-webkit-keyframes anim {
-  0% {
-    display: none;
-    opacity: 0;
-  }
-  1% {
-    display: block;
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
-@keyframes anim {
-  0% {
-    display: none;
-    opacity: 0;
-  }
-  1% {
-    display: block;
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
+  max-height:100vh;
+  visibility:visible;
+  transition:all 0.5s;
+  opacity:1;
 }
 #overlay h2 {
 	text-align:center;
@@ -864,7 +843,7 @@ footer {
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
-	transition:all 0.3s;
+	transition:all 0.5s;
 }
 .buttonbar {
     filter: blur(0px);

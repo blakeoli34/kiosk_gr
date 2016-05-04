@@ -11,8 +11,7 @@
 <body>
   <div class="page2">
     <?php $pageTitle = 'Faculty'; include("inc/header.php"); ?> 
-	<div class="focus">
-    	<img alt="" src="" />
+	<div class="focus faculty">
 	</div>
 	<div class="buttonbar">
 	</div>

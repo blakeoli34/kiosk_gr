@@ -11,7 +11,7 @@
 <body>
   <div class="page2">
     <?php $pageTitle = 'Events'; include("inc/header.php"); ?> 
-	<div class="focus calendarimage"></div>
+	<div class="focus calendarimageall"></div>
 	</div>
 	<div class="buttonbar">
 	</div>

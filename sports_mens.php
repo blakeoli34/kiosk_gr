@@ -10,34 +10,40 @@
 </head>
 <body>
   <div class="page2">
-    <?php $pageTitle = 'Sports'; include("inc/header.php"); ?> 
+    <?php include("inc/header.php"); ?> 
 	<div class="focus sports">
 	</div>
 	<div class="buttonbar">
 	</div>
 	<div class="breadcrumbs">
-		<a href="index.php">HOME</a> > <a class="active" href="sports.php">SPORTS</a>
+		<a href="index.php">HOME</a> > <a href="sports.php">SPORTS</a> > <a class="active" href="sports_mens.php">MENS SPORTS</a>
 	</div>	
 	<div class="row">
-		<h1 class="center">Sports</h1>
+		<h1 class="center">Mens Sports</h1>
 	</div>
 	<div class="row">
-		<a href="sports_mens.php"><div id="mens" class="col-half filltall red">
-			<h3>Mens Sports</h3>
-		</div></a>
-		<div id="womens" class="col-half filltall gold">
-			<h3>Womens Sports</h3>
+		<div class="col-9 sport darkgray">
+			<h2>Football</h2>
+		</div>
+		<div class="col-9 sport gray">
+			<h2>Basketball</h2>
+		</div>
+		<div class="col-9 sport darkgray">
+			<h2>Hockey</h2>
+		</div>
+		<div class="col-9 sport gray">
+			<h2>Golf</h2>
+		</div>
+		<div class="col-9 sport darkgray">
+			<h2>Cross Country</h2>
+		</div>
+		<div class="col-9 sport gray">
+			<h2>Track and Field</h2>
+		</div>
+		<div class="col-9 sport darkgray">
+			<h2>Tennis</h2>
 		</div>
 	</div>
-	<div class="row drop">	
-		<div id="results" class="col-half filltall gold">
-			<h3>Sports Results</h3>
-		</div>
-		<div id="clubs" class="col-half filltall darkgray">
-			<h3>Club Sports</h3>
-		</div>
-	</div>
-	<div class="page drop"></div>	
   </div>
   <?php include("inc/btn.php"); ?>
   <?php include("inc/overlay.php"); ?>

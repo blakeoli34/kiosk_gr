@@ -16,32 +16,18 @@
 	<div class="buttonbar">
 	</div>
 	<div class="breadcrumbs">
-		<a href="index.php">HOME</a> > <a class="active" href="campusinfo.php">CAMPUS INFORMATION</a>
-	</div>	
-	<div class="row">
-		<h1 class="center">Campus Information</h1>
+		<a href="index.php">HOME</a> > <a href="campusinfo.php">CAMPUS INFO</a> > <a class="active" href="safety.php">SAFETY</a>
 	</div>
-	<div class="row">
-		<a href="safety.php"><div id="safety" class="col-half filltall darkgray">
-			<h3>Safety</h3>
-		</div></a>
-		<div id="parking" class="col-half filltall gold">
-			<h3>Parking</h3>
-		</div>
+<center>
+	<div class="rsoinfo">
+		<h1 class="rso">SAFETY</h1>
+		<p class="lead">
+			<b>Emergency Boxes</b> allow for students to get help from over 30 different spots on campus.<br><br>
+			<b>Campus Police</b> are always present on campus, ready to help should a situation arrive.<br><br>
+			<b>Five Police Stations</b> in the area guarantees the safety of our students.
+		</p>
 	</div>
-	<div class="row">
-		<div id="dps" class="col-half filltall gold">
-			<h3>Department of <br>Public Safety</h3>
-		</div>
-		<div id="finaid" class="col-half filltall red">
-			<h3>Financial<br>Aid</h3>
-		</div>
-	</div>
-	<div class="row">
-		<div id="housing" class="col-9 filltall darkgray">
-			<h3>Housing</h3>
-		</div>
-	</div>
+</center>
   </div>
   <?php include("inc/btn.php"); ?>
   <?php include("inc/overlay.php"); ?>
