@@ -1,11 +1,6 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="js/jquery.js"></script>
-<script>
-	$(function() {
-		jcf.replaceAll();
-	});
-</script>
   <script type="text/javascript">
   var tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
 
@@ -33,7 +28,7 @@
   </script>
   <script>
       $('#toggleoverlay').click(function() {
-          $('#overlay').toggle();
+          $('#overlay').toggleClass('active');
 		  $('.page, .page2').toggleClass('blur');
           return false;
       });
