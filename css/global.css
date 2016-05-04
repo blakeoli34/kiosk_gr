@@ -78,22 +78,18 @@ th.stop {background-color:#CC0033;
 	background-image: url("../images/AIGARed.jpg");
 	background-size:cover;
 }
-
 #volunteer {
 	background-image: url("../images/BWEvents.jpg");
 	background-size:cover;
 }
-
 #blackgreek {
 	background-image: url("../images/BGC.jpg");
 	background-size:cover;
 }
-
 #eu {
 	background-image: url("../images/MIMAGold.jpg");
 	background-size:cover;
 }
-
 #diversity {
 	background-image: url("../images/DiversityClubRed.jpg");
 	background-size:cover;
@@ -102,16 +98,18 @@ th.stop {background-color:#CC0033;
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/BWSafety.jpg");
 	background-size:cover;
 }
-<<<<<<< HEAD
-.focus.RSO {background-image: url("../images/RSOS.jpg");
-	background-size:cover;}
-	
-.focus.rsosecond {background-image: url("../images/aigaheader.jpg");
-		background-size:cover;}
-		
-.focus.bus {background-image: url("../images/bus.jpg");
-				background-size:cover;}
-=======
+.focus.RSO {
+	background-image: url("../images/RSOS.jpg");
+	background-size:cover;
+}
+.focus.rsosecond {
+	background-image: url("../images/aigaheader.jpg");
+	background-size:cover;
+}
+.focus.bus {
+	background-image: url("../images/bus.jpg");
+	background-size:cover;
+}
 #safety {
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../images/safety.jpg");
 	background-size:cover;
@@ -148,7 +146,6 @@ th.stop {background-color:#CC0033;
 	background-image: url("../images/topstories.jpg");
 	background-size:cover;
 }
->>>>>>> 03d8c7c1ef2d94946c94b9ae68149dadeec60003
 /*color text hover classes*/
 
 /*global css*/
@@ -737,6 +734,10 @@ footer {
 			.maps {margin-top:20px;}
 			
 /* grid system */
+.page.drop {
+	background:#313131 url("../images/pixeld.png") repeat fixed;
+	height:17.2vh;
+}		
 .row:after {
 	content:"";
 	display:table;

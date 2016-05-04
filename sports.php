@@ -29,7 +29,7 @@
 			<h3>Womens Sports</h3>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row drop">	
 		<div id="results" class="col-half filltall gold">
 			<h3>Sports Results</h3>
 		</div>
@@ -37,6 +37,7 @@
 			<h3>Club Sports</h3>
 		</div>
 	</div>
+	<div class="page drop"></div>	
   </div>
   <?php include("inc/btn.php"); ?>
   <?php include("inc/overlay.php"); ?>
