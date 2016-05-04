@@ -259,10 +259,13 @@ header h1 {
 	padding:0;
 }
 header h3 {
+	text-align:right;
 	margin:0;
 	padding:0;
 	font-style:italic;
 	line-height:10px;
+	position:relative;
+	right:20%;
 }
 .smallbar {
 	width:100%;
