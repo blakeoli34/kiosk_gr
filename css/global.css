@@ -222,8 +222,8 @@ body {
   clear: both;
 }
 .breadcrumbs {
-	position:absolute;
-	top:275px;
+	position:relative;
+	top:-60px;
 	left:20px;
 	color:#cc0033;
 	font-size:8px;
